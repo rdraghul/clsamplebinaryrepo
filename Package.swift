@@ -19,7 +19,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "clsamplebinarytest",
-            url: "https://github.com/YourUsername/clsamplebinarytest/releases/download/v1.0.0/clsamplebinarytest.xcframework.zip",
+            url: "https://github.com/rdraghul/clsamplebinaryrepo/releases/download/v1/clsamplebinarytest.xcframework.zip",
             checksum: "4df4681d6d05a150e6f976a5478b949277b8bc83523f41045f7da35759083329"
         ),
         .target(
