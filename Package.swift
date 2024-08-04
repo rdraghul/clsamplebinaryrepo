@@ -22,13 +22,5 @@ let package = Package(
             url: "https://github.com/rdraghul/clsamplebinaryrepo/releases/download/v1/clsamplebinarytest.xcframework.zip",
             checksum: "4df4681d6d05a150e6f976a5478b949277b8bc83523f41045f7da35759083329"
         ),
-        .target(
-            name: "clsamplepackage",
-            dependencies: ["clsamplebinarytest"]
-        ),
-        .testTarget(
-            name: "clsamplepackageTests",
-            dependencies: ["clsamplepackage"]
-        ),
     ]
 )
